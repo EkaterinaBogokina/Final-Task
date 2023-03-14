@@ -1,7 +1,7 @@
 ﻿// 
 string[] arrayInitial = new string[4] {"do", "what", "you", "like"};
 	string[] array = new string[arrayInitial.Length];
-	void threeSymbolArray (string[] array1, string[] array2)
+	void threeSymbolArray (string[] arrayInitial, string[] array)
 	{
 	    int count = 0;
 	    for (int i = 0; i < arrayInitial.Length; i++)
